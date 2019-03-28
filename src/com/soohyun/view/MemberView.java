@@ -8,7 +8,7 @@ public class MemberView {
 	//member 한명의 정보를 출력하는 메서드
 	//member 들의 정보를 출력하는 메서드
 	
-	//오버로딩을 사용하세요
+	//오버로딩을 사용하세요 (오버라이딩과 다름)
 	public void view(Member member) {  //정보를 가지고 있는 멤버가 오면 된다. 
 		System.out.println("ID : " +member.getId());
 		System.out.println("PW : "+member.getPw());
